@@ -17,3 +17,7 @@ Using **H2 in-memory database** for simplicity and fast prototyping. Suitable fo
 - Spring Boot
 - H2 Database
 - Maven
+  
+## How to Run
+- docker build -t task-manager .
+- docker run -p 8080:8080 task-manager
